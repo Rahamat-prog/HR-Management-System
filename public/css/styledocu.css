@@ -1,0 +1,62 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap"); 
+
+
+
+.main-heading{
+ margin: 19px;
+ position: absolute;
+ right: 43%;
+ color: #fd5c63;
+ font-size: 40PX;
+ margin-top: 0.1px;
+}
+
+.row{
+ margin: 60px 245px;
+ padding: 5px;
+ align-items: center;
+ display: inline-block;  
+}
+.form-group{
+display: block;
+width: 340px;
+text-align: left;
+font-size: 18px;
+margin-top: 20px;
+margin-bottom: 20px;
+
+}
+
+
+.btn-style {
+ color: #fff;
+ font-size: 20px;
+ border: 2px solid #fff;
+ background: #ec615b;
+ font-family: "Poiret One", cursive;
+ font-weight: bold;  
+ cursor: pointer;
+
+}
+.btn-style:hover{
+ background-color:rgb(46, 184, 226);
+}
+
+input{
+ width: 100%;
+ padding: 9px 20px;
+ margin: 8px 0;
+ box-sizing: border-box;
+ font-size: 15px;
+}
+
+#emailHelp,
+::placeholder {
+ font-size: 1rem;
+
+}
+
+::placeholder {
+ font-weight: 400;
+} 

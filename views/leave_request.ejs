@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sreejan</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styleleave.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    
+
+</head>
+<body>
+
+    <div class="sidebar">
+        <div class="sidebar-brand">
+           
+            <h2> <span class="las la-tree"></span> HRMS </h2>
+            
+        </div>
+        
+    
+   
+    
+    <div class="sidebar-menu">
+        <ul>
+            <li>
+                <a href="" class="active"> <span class="las la-igloo"></span><span>Dashboard</span></a>
+            </li>
+    
+            <li class="item" id="employee details" >
+                <a href="#employee details " class="menu-btn"> 
+                    <i class="las la-server"></i><span>Employee Master <i class="fas fa-caret-down first"></i> </span>
+                </a>
+              <div class="sub-menu">
+                <a href="/employee"><span class="las la-user-edit"></span><span></span>Employee </span></a>
+                <a href="/left"><span class="las la-user-edit"></span><span></span>Left Employee</span></a>    
+             
+
+              </div>
+
+            </li>
+            <li class="item" id="leave" >
+                <a href="#leave " class="menu-btn"> 
+                    <i class="las la-server"></i><span>Leave <i class="fas fa-caret-down first"></i> </span>
+                </a>
+              <div class="sub-menu">
+                
+                <a href="/leave_request"><span class="las la-user-edit"></span><span></span>Leave Request</span></a>  
+                <a href="/verify"><span class="las la-user-check"></span><span></span>Verify</span></a>    
+                <a href="/leave_approval"><span class="las la-user-check"></span><span></span>Leave Approval</span></a>    
+
+                
+              </div>
+            </li>
+            <li class="item" id="salary" >
+                <a href="#salary " class="menu-btn"> 
+                    <i class="las la-server"></i><span>Salary <i class="fas fa-caret-down first"></i> </span>
+                </a>
+              <div class="sub-menu">
+                
+                <a href="/review_pay_roll"><span class="las la-money-check"></span><span></span>Review Pay Roll</span></a>  
+                <a href="/approve_pay_roll"><span class="las la-money-check"></span><span></span>Approve Pay Roll</span></a>    
+                <a href="/generate_pay_roll"><span class="las la-money-check"></span><span></span>Generate Pay Roll</span></a>  
+                
+                
+              </div>
+            </li>
+            <li class="item" id="attendance" >
+                <a href="#attendance " class="menu-btn"> 
+                    <i class="las la-server"></i><span>Attendance <i class="fas fa-caret-down first"></i> </span>
+                </a>
+              <div class="sub-menu">
+                
+            <a href="/attendance_request"><span class="las la-user-edit"></span><span></span>Attendance Request</span></a>
+            <a href="/attendance_verification"><span class="las la-user-check"></span><span></span>Attendance Verification</span></a>
+            <a href="/attendance_approval"><span class="las la-user-check"></span><span></span>Attendance Approval</span></a>
+
+                
+              </div>
+            </li>
+            <li class="item" id="pms" >
+                <a href="#pms " class="menu-btn"> 
+                    <i class="las la-server"></i><span>PMS <i class="fas fa-caret-down first"></i> </span>
+                </a>
+              <div class="sub-menu">
+                
+                <a href="/pms_field"><span class="las la-user-edit"></span><span></span>PMS Field</span></a>
+                <a href="/pms_for_confirmation"><span class="las la-user-check"></span><span></span>PMS For Confirmation</span></a>
+                <a href="/pms_ho"><span class="las la-user-edit"></span><span></span>PMS HO</span></a>
+                <a href="/promotion"><span class="las la-user-check"></span><span></span>Promotion</span></a>
+                
+              </div>
+            </li>
+            <li class="item" id="recruitment" >
+                <a href="#recruitment " class="menu-btn"> 
+                    <i class="las la-server"></i><span>Recruitment <i class="fas fa-caret-down first"></i> </span>
+                </a>
+              <div class="sub-menu">
+                
+               
+                <a href="/interview"><span class="las la-file-alt"></span><span></span>Interview</span></a>
+                <a href="/initial_data"><span class="las la-calendar-day"></span><span></span>Initial Data</span></a>
+                <a href="/verify"><span class="las la-user-check"></span><span></span>Verify</span></a>
+                <a href="/ho_approval"><span class="las la-user-check"></span><span></span>HO Approval</span></a>
+
+                
+              </div>
+            </li>
+            <li class="item" id="training" >
+                <a href="#training " class="menu-btn"> 
+                    <i class="las la-server"></i><span>Training <i class="fas fa-caret-down first"></i> </span>
+                </a>
+              <div class="sub-menu">
+                
+                <a href="/introduction_training"><span  class="las la-users-cog"></span><span></span>Introduction Training</span></a>
+                <a href="/refresher_training"><span class="las la-users-cog"></span><span></span>Refresher Training</span></a>
+         
+             
+                
+              </div>
+            </li>
+            <li class="item" id="report" >
+                <a href="#report " class="menu-btn"> 
+                    <i class="las la-server"></i><span>Report <i class="fas fa-caret-down first"></i> </span>
+                </a>
+              <div class="sub-menu">
+                
+                <a href="/staff_report"><span class="las la-edit"></i></span><span></span>Staff Report</a></span>
+                <a href="/salary_report"><span class="las la-money-check-alt"></span><span></span>Salary Report</a></span>
+                <a href="/salary_payment"><span  class="las la-money-check-alt"></span><span></span>Salary Payment</a></span>
+                <a href="/new_employee_hired"><span class="las la-user-check"></span><span></span>New Employee Hired</a></span>
+                <a href="/dropout_employee"><span class="las la-user-alt-slash"></span><span></span>Dropout Employee</a></span>
+                <a href="/attrition_rate"><span class="las la-signal"></span><span></span>Attrition Rate</a></span>
+                <a href="/employee_attendance_report"><span  class="las la-edit"></span><span></span>Employee Attendance Report</a></span>
+                <a href="/employee_attendance_register"><span  class="las la-edit"></span><span></span>Employee Attendance Register</a></span>
+                <a href="/salary_hold"><span  class="las la-money-check"></span><span></span>Salary Hold</a></span>
+                <a href="/transfer_history"><span class="las la-file-export"></span><span></span>Transfer History</a></span>
+                <a href="/branch_list"><span class="las la-scroll"></span><span></span>Branch List</a></span>
+                <a href="/final_settlement_of_employee"><span  class="las la-users-cog"></span><span></span>Final Settlement Of Employee</a></span>
+                <a href="/holiday_list"><span  class="las la-scroll"></span><span></span>Holiday List</a></span>
+                <a href="/leave_report"><span  class="las la-edit"></span><span></span>Leave Report</a></span>
+                <a href="/leave_register"><span  class="las la-edit"></span><span></span>Leave Register</a></span>
+                <a href="/salary_increament_report"><span  class="las la-money-check"></span><span></span>Salary Increament Report</a></span>
+                <a href="/id_card_delivery_report"><span  class="las la-edit"></span><span></span>Id Card Delivery Report</a></span>
+                <a href="/employee_insurance_report"><span  class="las la-edit"></span><span></span>Employee Insurance Report</a></span>
+                
+                
+              </div>
+            </li>
+
+            <li class="item" id="administrative" >
+                <a href="#administrative " class="menu-btn"> 
+                    <i class="las la-server"></i><span>Administrative <i class="fas fa-caret-down first"></i> </span>
+                </a>
+              <div class="sub-menu">
+                
+                <a href="/field_level"><span class="las la-level-up-alt"></span><span></span>Field Level</a></span>
+                <a href="/ho_level"><span  class="las la-level-up-alt"></span><span></span>HO Level</a></span>
+                
+              </div>
+            </li>
+
+            <li class="item" id="allowance" >
+                <a href="#allowance " class="menu-btn"> 
+                    <i class="las la-server"></i><span>Allowance <i class="fas fa-caret-down first"></i> </span>
+                </a>
+              <div class="sub-menu">
+                
+                <a href="/motor_allowance"><span class="las la-check-square"></span><span></span>Motor Allowance</a></span>
+                <a href="/mess_allowance"><span class="las la-check-square"></span><span></span>Mess Allowance</a></span>
+                <a href="/other_allowance"><span class="las la-check-square"></span><span></span>Other Allowance</a></span>
+                <a href="/office_rent"><span class="las la-money-check"></span><span></span>Office Rent</a></span>
+                <a href="/office_argument"><span class="las la-users"></span><span></span>Office Argument</a></span>
+                   
+              </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="main-content">
+    <header>
+       <h2>
+         Leave Request
+           
+        </h2>
+
+        
+        <div class="add-wrapper">
+        <span class="las la-plus"></span><span>Leave Details</a></span>
+        </div>
+        
+
+
+        <div class="home-wrapper">
+          <a href="/home"><span class="las la-home"></span><span>Home</a></span>
+         </div>
+        <div class="employee-wrapper">
+          <a href="/leave_details"><span></a>Leave Details</span>
+         </div>
+        <div class="addemp-wrapper">
+          <a href="/leave_setup"><span></a>Leave Setup</span>
+         </div>
+
+          
+
+    </header>
+
+    <main>
+
+        <div class="card">
+    
+        <ul>
+
+            <li class="note" id="employee_register" >
+              <a href="#employee_register " class="menu-item"> 
+                <span>Apply for Leave   </span>
+              </a>
+            <div class="sub-item">
+
+              
+             <div class="row">
+
+              <form action="/leav"  id="add-form" method="POST">
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Select Leave Type :</label>
+                   
+                      <input class="form-check-input" type="radio" value="casual leave" name="leave_type" id="flexRadioDefault1">Casual Leave
+                     <input class="form-check-input" type="radio" value="Medical Leave Test" name="leave_type"  id="flexRadioDefault2" > Medical Leave Test
+                     <input class="form-check-input" type="radio" value="Restricted Holiday" name="leave_type" id="flexRadioDefault2" required>Restricted Holiday
+                    
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">From Date</label>
+                    <input type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="From Date" name="form_date">
+      
+                </div>
+                
+                <div class="form-group">
+                    <label for="exampleInputPassword1">To Date</label>
+                    <input type="date" class="form-control" id="exampleInputPassword1" placeholder="To Date" name="to_date">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Description</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Description" name="description">
+                </div>
+    
+                
+                <button type="submit" class="btn-style ">Apply</button>
+
+                  </form>
+                  
+                
+                </div>
+                
+              
+            </div>
+          </li>
+           
+        </ul>
+    </main>
+
+</div>

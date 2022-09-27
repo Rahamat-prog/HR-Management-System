@@ -1,0 +1,124 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap"); 
+
+
+
+ .main-heading{
+  margin: 19px;
+  position: absolute;
+  right: 43%;
+  color: #fd5c63;
+  font-size: 40PX;
+  margin-top: 0.1px;
+}
+
+.sub-heading{
+  font-size:18px;
+  letter-spacing: 3px;
+  line-height: 110px;
+  color: #333;
+  font-weight: 500;
+  font-family: "Poiret One", cursive;
+  margin: 19px;
+  position: absolute;
+  right: 43.6%;
+}
+
+.row{
+  margin: 80px 510px;
+  padding: 0px;
+  align-items: center;
+  display: inline-block;  
+}
+
+/* .container{ */
+  /* background: linear-gradient(135deg, #71b7e6, #59b65e) ; */
+/* } */
+
+
+.form-group{
+display: block;
+width: 340px;
+text-align: left;
+font-size: 18px;
+margin-top: 20px;
+margin-bottom: 20px;
+
+}
+
+
+.btn-style {
+  color: #fff;
+  font-size: 20px;
+  border: 2px solid #fff;
+  background: #ec615b;
+  font-family: "Poiret One", cursive;
+  font-weight: bold;  
+  cursor: pointer;
+ 
+}
+.btn-style:hover{
+  background-color:rgb(46, 184, 226);
+}
+
+input{
+  width: 100%;
+  padding: 9px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+ 
+.form-contro
+
+
+
+#emailHelp,
+::placeholder {
+  font-size: 1rem;
+
+}
+
+::placeholder {
+  font-weight: 400;
+} 
+
+
+
+.row .inp::file-selector-button{
+  border: 2px solid #6c5ce7;
+  padding: .2em .4em;
+  border-radius: .5rem;
+  background-color: #81ecec;
+  transition: 1s;
+  cursor: pointer;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.row .inp::file-selector-button:hover{
+  background-color: #d6f7f8;
+  border: 2px solid #00cec9;
+}
+.row .uplo{
+  border: 2px solid #6c5ce7;
+  padding: .2em .4em;
+  width: 340px;
+  border-radius: .5rem;
+  background-color: #bffe9b;
+  transition: 1s;
+  cursor: pointer;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.row .uplo:hover{
+  background-color: #d6f7f8;
+  border: 2px solid #00cec9;
+}
+
+
+
+
+
+
